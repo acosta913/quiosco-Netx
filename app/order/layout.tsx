@@ -1,7 +1,7 @@
 import React from "react";
-import OrderSidebar from "../components/order/OrderSidebar";
-import OrderSummary from "../components/order/OrderSummary";
-import ToastNotification from "../components/ui/ToastNotification";
+import OrderSidebar from "../../components/order/OrderSidebar";
+import OrderSummary from "../../components/order/OrderSummary";
+import ToastNotification from "../../components/ui/ToastNotification";
 
 export default function RootLayout({
   children,

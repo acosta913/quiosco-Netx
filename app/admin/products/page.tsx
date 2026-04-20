@@ -1,7 +1,7 @@
-import ProductSearchForm from "@/app/components/products/ProductSearchForm";
-import ProductsPagination from "@/app/components/products/ProductsPagination";
-import ProductTable from "@/app/components/products/ProductTable";
-import Heading from "@/app/components/ui/Heading";
+import ProductSearchForm from "@/components/products/ProductSearchForm";
+import ProductsPagination from "@/components/products/ProductsPagination";
+import ProductTable from "@/components/products/ProductTable";
+import Heading from "@/components/ui/Heading";
 import { prisma } from "@/prisma/lib/prisma";
 import Link from "next/link";
 import { redirect } from "next/navigation";

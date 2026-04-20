@@ -1,7 +1,7 @@
 
 
-import AdminSidebar from "../components/admin/AdminSidebar";
-import ToastNotification from "../components/ui/ToastNotification";
+import AdminSidebar from "../../components/admin/AdminSidebar";
+import ToastNotification from "../../components/ui/ToastNotification";
 
 export default async function AdminLayout({
     children,

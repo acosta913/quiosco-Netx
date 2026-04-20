@@ -1,6 +1,6 @@
-import ProductSearchForm from "@/app/components/products/ProductSearchForm";
-import ProductTable from "@/app/components/products/ProductTable";
-import Heading from "@/app/components/ui/Heading";
+import ProductSearchForm from "@/components/products/ProductSearchForm";
+import ProductTable from "@/components/products/ProductTable";
+import Heading from "@/components/ui/Heading";
 import { prisma } from "@/prisma/lib/prisma";
 
 async function searchProducts(searchTerm: string) {
